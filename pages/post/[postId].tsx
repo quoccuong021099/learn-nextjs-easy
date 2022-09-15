@@ -1,7 +1,6 @@
 import { GetStaticPaths, GetStaticProps, GetStaticPropsContext } from 'next'
 import * as React from 'react'
 import { useRouter } from 'next/dist/client/router'
-import MainLayout from '../../components/layout/main'
 
 export interface PostDetailProps {
   post: any
